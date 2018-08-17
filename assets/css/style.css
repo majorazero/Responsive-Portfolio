@@ -141,3 +141,13 @@ a.nav {
 a.nav:hover {
   color:red;
 }
+
+@media screen and (max-width:900px) {
+
+}
+@media screen and (max-width:768px) {
+
+}
+@media screen and (max-width:640px) {
+
+}
