@@ -74,6 +74,21 @@ footer {
   height: auto;
   margin: 0 10px;
 }
+#pic1 {
+  background-image: url("https://picsum.photos/300/200/?image=0");
+}
+#pic2 {
+  background-image: url("https://picsum.photos/300/200/?image=12");
+}
+#pic3 {
+  background-image: url("https://picsum.photos/300/200/?image=25");
+}
+#pic4 {
+  background-image: url("https://picsum.photos/300/200/?image=23");
+}
+#pic5 {
+  background-image: url("https://picsum.photos/300/200/?image=47");
+}
 .container {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   width: 960px;
@@ -142,8 +157,25 @@ a.nav:hover {
   color:red;
 }
 
-@media screen and (max-width:900px) {
-
+@media screen and (max-width:980px) {
+  .container {
+    width: 58%;
+    margin-left: 50px;
+  }
+  .header-wrapper {
+    margin-left:50px;
+  }
+  .nav-container {
+    margin: 25px 50px;
+  }
+  #profileImg {
+    width: 200px;
+  }
+  .panel {
+    width: 225px;
+    height: 150px;
+    background-size: contain;
+  }
 }
 @media screen and (max-width:768px) {
 
