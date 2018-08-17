@@ -199,7 +199,6 @@ a.nav:hover {
   .panel {
     width: 300px;
     height: 200px;
-    background-size: contain;
   }
 }
 @media screen and (max-width:640px) {
@@ -228,6 +227,27 @@ a.nav:hover {
     text-align: center;
 
   }
-  .container-wrapper {
+  .panel {
+    width: 550px;
+    height: 366.67px;
+    max-width: 100%;
   }
+  #profileImg {
+    max-width: 50%;
+  }
+  /* #pic1 {
+    background-image: url("https://picsum.photos/550/366/?image=0");
+  }
+  #pic2 {
+    background-image: url("https://picsum.photos/300/200/?image=12");
+  }
+  #pic3 {
+    background-image: url("https://picsum.photos/300/200/?image=25");
+  }
+  #pic4 {
+    background-image: url("https://picsum.photos/300/200/?image=23");
+  }
+  #pic5 {
+    background-image: url("https://picsum.photos/300/200/?image=47");
+  } */
 }
