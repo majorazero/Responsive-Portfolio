@@ -206,6 +206,10 @@ a.nav:hover {
   header {
     display: none;
   }
+  .container {
+    width: 90%;
+    margin: 10px auto;
+  }
   .header-640 {
     background-color: #ffffff;
     overflow: auto;
@@ -228,26 +232,10 @@ a.nav:hover {
 
   }
   .panel {
-    width: 550px;
-    height: 366.67px;
-    max-width: 100%;
+    width: 92%;
+    height: calc(75vw * 200/300);
   }
   #profileImg {
     max-width: 50%;
   }
-  /* #pic1 {
-    background-image: url("https://picsum.photos/550/366/?image=0");
-  }
-  #pic2 {
-    background-image: url("https://picsum.photos/300/200/?image=12");
-  }
-  #pic3 {
-    background-image: url("https://picsum.photos/300/200/?image=25");
-  }
-  #pic4 {
-    background-image: url("https://picsum.photos/300/200/?image=23");
-  }
-  #pic5 {
-    background-image: url("https://picsum.photos/300/200/?image=47");
-  } */
 }
