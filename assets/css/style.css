@@ -3,7 +3,6 @@
 }
 header {
   background-color: #ffffff;
-  overflow: auto;
   border-bottom: 3px solid;
   border-color: #cccccc;
   height: 80px;
@@ -228,7 +227,6 @@ a.nav:hover {
     width: 100%;
     background-color: #ffffff;
     text-align: center;
-
   }
   .panel {
     width: 92%;
