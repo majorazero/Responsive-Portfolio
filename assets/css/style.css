@@ -157,6 +157,8 @@ a.nav:hover {
 }
 
 @media screen and (max-width:980px) {
+  /* One of the major ways I found to make my content responsive is to use percentages instead of
+  hard coding everything.  */
   .container {
     width: 58%;
     margin-left: 50px;
@@ -172,6 +174,10 @@ a.nav:hover {
   #profileImg {
     width: 200px;
   }
+  /* Ended up finding some weird way to making the pictures responsive, but this is probably not ideal
+  since I was told calc is a pretty taxing function to use. That said, I think it would only really be
+  an issue if someone is actively changing the width of the site, which I think SHOULD be fairly
+  uncommon amongst most users.  */
   .panel {
     width: 40%;
     height: calc(25vw * 200/300);
@@ -199,8 +205,9 @@ a.nav:hover {
     height: calc(35vw * 200/300);
   }
 }
+/* Once you get to 640px everything has to looks drastically different because of how
+small everything gets. This section required the most work to make it look half-decent. */
 @media screen and (max-width:640px) {
-
   header {
     display: none;
   }
