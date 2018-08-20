@@ -240,6 +240,9 @@ small everything gets. This section required the most work to make it look half-
     height: calc(75vw * 200/300);
   }
   #profileImg {
-    max-width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    width: auto;
+    float: none;
   }
 }
